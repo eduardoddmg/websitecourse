@@ -1,0 +1,419 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    height: 100%;
+    overflow-x: hidden;
+}
+/*nav*/
+.navbar-brand {
+    color: green;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar-nav {
+    margin-left: 850px;
+}
+
+.nav-link {
+    margin-left: 15px;
+    font-size: 18px;
+}
+.navbarr-brand {
+    margin-left: 50px;
+}
+
+
+.navbar-nav .nav-link {
+    color: green;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.navbarr {
+    background-color: #2b2c2c;
+}
+span {
+    color: white;
+}
+
+
+/*capa*/
+.btn1{
+    border: 2px solid green;
+    background: green;
+    color: white;
+    margin-top: 0;
+    border-radius: 30px;
+    margin: 20px;
+    ;
+    text-align: center;
+}
+
+.btn1 button {
+    text-align: center;
+}
+
+.btn-group-lg>.btn, .btn-lg .btn1{
+    border: 2px solid green;
+    background: green;
+    color: white;
+    margin-top: 0px;
+    border-radius: 30px;
+}
+
+
+.btn2 {
+    border: 2px solid white;
+    color: white;
+    margin-top: 0px;
+    border-radius: 30px;
+    margin: 20px;
+    
+}
+
+.btn1:hover {
+    border: 2px solid white;
+    color: white;
+    background: none;
+    transition: 0.3s;
+}
+    
+
+
+.btn2:hover {
+    border: 2px solid green;
+    background: green;
+    color: white;
+    transition: 0.3s;
+}
+.capa {
+    text-align: center;
+    background: url(assets/background-capa.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+
+.capa h1 {
+    color: white;
+    font-size: 60px;
+    margin-top: 30%;
+    margin-bottom: 10px;
+    
+}
+
+.capa p {
+    color: white;
+    font-size: 30px;
+    
+}
+
+.imagem-capa img{
+    border-radius: 20px;
+    width: 90%;
+    
+}
+
+.imagem-capa {
+    margin-top: 5%;
+}
+
+/*sobre*/
+.text-sobre {
+    margin-top: 70px;
+}
+
+.text-sobre h2 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-sobre p{
+    color: black;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.img-sobre {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.sobre {
+    background-color: white;
+    
+}
+
+/*servicos*/
+.servico {
+    background: url(assets/background-servico.jpg);
+    height: auto;
+}
+
+.servico h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.servico button {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 10%;
+    margin-top: 8%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.servico button:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+
+
+
+.servico h1 {
+    color: white;
+}
+
+
+.cards {
+    width: 300px;
+    height: 450px;
+    border: 1px solid white;
+    margin: 30px;
+    background-color: green;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.cards img {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.cards h2 {
+    color: white;
+}
+
+.icon-star2 {
+    text-align: center;
+}
+
+.line {
+    width: 100px;
+    text-align: center;
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*ebook*/
+.ebook {
+    background: url(assets/background-capa.jpg);
+}
+
+.ebook h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.ebook h2 {
+    color: black;
+    margin-top: 10px;
+}
+
+.ebook p {
+    color: white;
+    font-weight: bold;;
+}
+
+.ebook img {
+    width: 100%;
+    text-align: center;
+ }
+
+
+    
+.ebook button {
+    margin-top: 80px;
+}
+
+
+/*comentarios*/
+.comentarios {
+    background-color: white;
+}
+.cards-comentarios {
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
+    margin: 30px;
+    background: black;
+    transition: 0.5s;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.cards-comentarios p {
+    color: rgb(138, 135, 135);
+    margin-top: 20px;
+}
+
+.text-comentarios {
+    color: white;
+    font-weight: bold;
+}
+.fa-star {
+    color: yellow;
+    font-size: 15px;
+}
+
+
+/*rodape*/
+   
+    .rodape p{
+        color: black;
+        margin-top: 20px;
+    }
+
+    .rodape a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .rodape a:hover {
+        color: green;
+        transition: 0.3s;
+    }
+
+
+/*mediaqueries*/
+@media screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .capa {
+        height: auto;
+        width: 100%;
+    }
+    .capa1 {
+        text-align: center;
+        margin-top: 5px;
+        }
+
+    .capa2 img{
+            text-align: center;
+            margin-bottom: 30px;
+            
+            }
+    .sobre1 {
+        text-align: center;
+    }
+
+    .sobre1 img {
+        width: 70%;
+        text-align: center;
+    }
+
+    .cards {
+        width: 90%;
+        margin: 5%;
+        text-align: center;
+        height: 70%;
+    }
+    .sobre {
+        margin-top: 100px;
+    }
+    .text-sobre {
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 90%;
+    }
+
+
+    .btn1-ebook, .btn2-ebook {
+        width: 70%;
+    }
+
+    
+
+    .btn1-card, .btn2-card {
+            padding-left: 95px;
+            padding-right: 95px;
+                
+        }
+
+    .ebook img {
+        width: 337px;
+    }
+
+    .btn1-ebook, .btn2-ebook {
+        padding-left: 130px;
+        padding-right: 130px;
+        vertical-align: middle;
+    }
+
+    .cards-comentarios {
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .comentarios {
+        text-align: center;
+    }
+    
+
+}
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 80px;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+    font-size: 100px;
+    }
+}
+    
+  
+  .item:target .text{
+    height: auto;
+    opacity: 1;
+    padding: 20px;
+    margin: 12px 0;
+  }
+  
+  .item:target .icon::after{
+    transform: rotate(0);
+  }
+  
